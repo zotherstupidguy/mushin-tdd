@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 === What is Mushin?
 Mushin is a specification interface between your ruby application and domain-specific frameworks.
 It provides generation capabilities to kick start developing your own domain-specific framework based on the interface, thats the Mushin way.
@@ -21,7 +20,7 @@ It is a good practice to isolate the middleware from the logic, in the sense tha
 - first we start by writing the specs for our middleware which is typical and can be gernated in the future via mushin
 mushin_middleware_spec.rb
 - then we move own to write the actual middleware
-# this is a mushin middlware
+##### this is a mushin middlware
 class redis
 	def app(env)
 	end
@@ -32,17 +31,15 @@ end
 - then we write the spec for our logic class that contain the methods for our logic
 
 - and finally we write the actually logic class that make the spec pass
-# this is a logic file for the middleware of mushin
+#####  this is a logic file for the middleware of mushin
 class RedisDS
-# here each function is used and tested in as a spec in isolation
+#####  here each function is used and tested in as a spec in isolation
 end
 
 === Mushin testing
 
-#TODO Mushin::MockRequest, similar to rack's stack let(:request) { Rack::MockRequest.new(stack) }
+##### TODO Mushin::MockRequest, similar to rack's stack let(:request) { Rack::MockRequest.new(stack) }
 
 
 === Mushin Generation capabilities
 each new version of mushin contains a blue print of the domain-speicifc framework, it copies those files into a destenation directory and then uses grep to replace various code snippet 
-=======
->>>>>>> aea55a75f9a56a32e77a62df6657cfec374c923a
