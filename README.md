@@ -43,3 +43,6 @@ end
 
 === Mushin Generation capabilities
 each new version of mushin contains a blue print of the domain-speicifc framework, it copies those files into a destenation directory and then uses grep to replace various code snippet 
+
+
+=== Virtual Currency Domain Framework, that includes middlewares for different client apis and gems to work with virtualcurrencies
